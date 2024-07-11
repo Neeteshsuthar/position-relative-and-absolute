@@ -1,0 +1,106 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+#main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 590px;
+  flex-wrap: wrap;
+}
+.product {
+  height: 530px;
+  width: 380px;
+  position: relative;
+  box-shadow: 0px 0px 15px rgb(177, 177, 177);
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(158, 158, 158);
+}
+.like_dislike {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  height: 30px;
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.like_heart {
+  border: 2px solid grey;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.description_sec {
+  padding: 0px 40px 40px 40px;
+}
+.product_name {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  color: rgb(88, 88, 88);
+}
+.price {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(141, 141, 141);
+  margin-top: -15px;
+}
+.second_price {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(224, 224, 224);
+  margin-left: 10px;
+}
+.description {
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  color: grey;
+}
+.button_buy {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(143, 0, 0);
+  border: 2px solid rgb(143, 2, 2);
+  outline: none;
+  height: 35px;
+  width: 120px;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: transparent;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.button_buy:hover {
+  background-color: rgb(143, 0, 0);
+  color: white;
+}
+.brown_btn {
+  background-color: rgb(143, 0, 0);
+  color: white;
+}
+.brown_btn:hover {
+  color: rgb(143, 0, 0);
+  border: 2px solid rgb(143, 2, 2);
+  background-color: white;
+}
+#you_like_this {
+  display: inline-block;
+  color: rgb(189, 189, 189);
+  font-size: 11px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  word-spacing: 0px;
+}
